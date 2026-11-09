@@ -1,0 +1,17 @@
+# Never commit anything extracted from your own device/APK - these contain
+# your personal device identifiers (IMEI, serial) and/or vendor-copyrighted
+# certificate material that shouldn't be redistributed.
+proxy.p12
+client-cert.pem
+client-key.pem
+android-client.p12
+*.cfg
+*.cfg.bak
+*.cfg.new
+*.cfg.orig
+cookies*.txt
+JioHomeJFE.apk
+main.js
+rootfs/
+rootfs.zip
+*.ubi
