@@ -24,7 +24,7 @@ step below does this automatically where possible — don't skip it).
 The ODU runs a local HTTPS management API (`JioODU`, an Angular SPA) on the
 device. Normally it's reachable two ways:
 
-1. **Wi-Fi/LAN**, at `https://192.168.31.1/` (if you're on the ODU's own
+1. **Wi-Fi/LAN**, at `https://192.168.225.1/` (if you're on the ODU's own
    network) — the app's `OpenWebGui` flow auto-logs into this with
    JS-injected default creds.
 2. **Bluetooth PAN tethering** — the app pairs over BLE, brings up a
